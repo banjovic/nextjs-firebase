@@ -1,0 +1,36 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+
+  .signup-svg {
+    flex: 40%;
+    align-self: center;
+
+    .signup-svg-text-wrapper {
+      margin: 30px;
+
+      h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: var(--col-text-4);
+      }
+
+      div {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: var(--col-text-4);
+
+        span {
+          color: var(--col-tertiary);
+        }
+      }
+    }
+  }
+
+  .signup-content-wrapper {
+    flex: 60%;
+    background: var(--col-primary-2);
+  }
+}
