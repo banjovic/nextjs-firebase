@@ -1,0 +1,38 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+
+  div {
+    display: flex;
+    gap: 20px;
+
+    .primary-button,
+    .secondary-button {
+      border-radius: 8px;
+      padding: 8px 30px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: #ffffff;
+    }
+
+    .primary-button {
+      background: var(--col-tertiary);
+    }
+
+    .primary-button:hover {
+      background: var(--col-text-1);
+    }
+
+    .secondary-button {
+      background: var(--col-text-1);
+    }
+
+    .secondary-button:hover {
+      background: var(--col-tertiary);
+    }
+  }
+}
