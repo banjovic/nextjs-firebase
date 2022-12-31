@@ -184,7 +184,10 @@ const Login = (props: Props) => {
                         </label>
                       </div>
 
-                      <div className={styles["forgot__password__link"]}>
+                      <div
+                        className={styles["forgot__password__link"]}
+                        onClick={() => alert("No functionality to this yet")}
+                      >
                         Forgot password?
                       </div>
                     </div>
